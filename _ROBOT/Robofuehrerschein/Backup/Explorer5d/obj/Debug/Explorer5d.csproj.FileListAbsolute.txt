@@ -1,0 +1,11 @@
+C:\Users\Alex\Desktop\exauto\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Users\Alex\Desktop\exauto\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Users\Alex\Desktop\exauto\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\Explorer5d.csproj.GenerateResource.Cache
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Users\Alex\Desktop\exauto\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\Users\Alex\Desktop\exauto\Explorer\obj\Debug\Explorer5d.exe
+C:\Users\Alex\Desktop\exauto\Explorer\obj\Debug\Explorer5d.pdb

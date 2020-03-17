@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>Erstellungsprotokoll</h1>
+<h3>
+--------------------Konfiguration: EducationLineKonsole01 - Win32 Release--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP57.tmp" mit Inhalten
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"N:\Produkte\Entwick1\Projekte-Kunden\ft\ft-if3\software\if3-windows\FtLibDemo\Education_Line\EducationLineKonsole01_DLL\Source\EducationLineKonsole01.cpp"
+"N:\Produkte\Entwick1\Projekte-Kunden\ft\ft-if3\software\if3-windows\FtLibDemo\Education_Line\EducationLineKonsole01_DLL\Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP57.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP58.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/EducationLineKonsole01.pdb" /machine:I386 /out:"Release/EducationLineKonsole01.exe" 
+".\Release\EducationLineKonsole01.obj"
+".\Release\StdAfx.obj"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP58.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+EducationLineKonsole01.cpp
+StdAfx.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+EducationLineKonsole01.exe - 0 Fehler, 0 Warnung(en)
+<h3>
+--------------------Konfiguration: EducationLineKonsole01 - Win32 Debug--------------------
+</h3>
+<h3>Befehlszeilen</h3>
+Erstellen der temporären Datei  "C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP5A.tmp" mit Inhalten
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"N:\Produkte\Entwick1\Projekte-Kunden\ft\ft-if3\software\if3-windows\FtLibDemo\Education_Line\EducationLineKonsole01_DLL\Source\EducationLineKonsole01.cpp"
+"N:\Produkte\Entwick1\Projekte-Kunden\ft\ft-if3\software\if3-windows\FtLibDemo\Education_Line\EducationLineKonsole01_DLL\Source\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP5A.tmp" 
+Erstellen der temporären Datei  "C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP5B.tmp" mit Inhalten
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/EducationLineKonsole01.pdb" /debug /machine:I386 /out:"Debug/EducationLineKonsole01.exe" /pdbtype:sept 
+".\Debug\EducationLineKonsole01.obj"
+".\Debug\StdAfx.obj"
+]
+Erstellen der Befehlzeile "link.exe @C:\DOKUME~1\Ralf\LOKALE~1\Temp\RSP5B.tmp"
+<h3>Ausgabefenster</h3>
+Kompilierung läuft...
+EducationLineKonsole01.cpp
+StdAfx.cpp
+Generieren von Code...
+Linker-Vorgang läuft...
+
+
+
+<h3>Ergebnisse</h3>
+EducationLineKonsole01.exe - 0 Fehler, 0 Warnung(en)
+</pre>
+</body>
+</html>

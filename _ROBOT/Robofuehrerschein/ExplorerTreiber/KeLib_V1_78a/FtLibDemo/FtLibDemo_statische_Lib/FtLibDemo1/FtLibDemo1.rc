@@ -1,0 +1,351 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Deutsch (Deutschland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\FtLibDemo1.rc2""  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standardkomponenten\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\FtLibDemo1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FTLIBDEMO1_DIALOG DIALOGEX 0, 0, 592, 382
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "FtLibDemo1 (statische LIB)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Voltmeter     (+R 220 Ohm)",IDC_RAB_DS_VOLT,"Button",
+                    BS_AUTORADIOBUTTON | BS_TOP | BS_MULTILINE | NOT 
+                    WS_VISIBLE | WS_GROUP,220,305,60,20
+    CONTROL         "Distanzmesser",IDC_RAB_DS_DS,"Button",
+                    BS_AUTORADIOBUTTON | NOT WS_VISIBLE,220,295,61,10
+    CONTROL         "Intelligent Interface (or Robo-IF with Intelligent-Modus)",
+                    IDC_RAB_IIF,"Button",BS_AUTORADIOBUTTON | WS_GROUP,368,
+                    30,183,10
+    CONTROL         "Intelligent Interface with Extension--Module",
+                    IDC_RAB_IIF_EXTENSION,"Button",BS_AUTORADIOBUTTON,368,45,
+                    183,10
+    CONTROL         "Robo Interface",IDC_RAB_RIF,"Button",BS_AUTORADIOBUTTON,
+                    368,60,110,10
+    CONTROL         "OFFLINE",IDC_RA_OFF,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,305,5,45,10
+    CONTROL         "USB Device:",IDC_RA_USB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_TABSTOP,305,95,55,10
+    CONTROL         "Seriell COM1",IDC_RA_SERC1,"Button",BS_AUTORADIOBUTTON,
+                    305,20,56,10
+    CONTROL         "Seriell COM2",IDC_RA_SERC2,"Button",BS_AUTORADIOBUTTON,
+                    305,35,57,10
+    CONTROL         "Seriell COM3",IDC_RA_SERC3,"Button",BS_AUTORADIOBUTTON,
+                    305,50,57,10
+    CONTROL         "Seriell COM4",IDC_RA_SERC4,"Button",BS_AUTORADIOBUTTON,
+                    305,65,57,10
+    LTEXT           "IF ist OFFLINE",IDC_Online,375,205,60,10
+    EDITTEXT        IDC_OWert,235,15,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    CONTROL         "",IDC_O08,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,220,17,
+                    10,10
+    LTEXT           "O8",IDC_STATIC,220,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I08,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,130,10,10
+    LTEXT           "I8",IDC_STATIC,10,130,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O07,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,200,17,
+                    10,10
+    LTEXT           "O7",IDC_STATIC,200,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I07,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,115,10,10
+    LTEXT           "I7",IDC_STATIC,10,115,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O06,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,17,
+                    10,10
+    LTEXT           "O6",IDC_STATIC,180,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I06,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,100,10,10
+    LTEXT           "I6",IDC_STATIC,10,100,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O05,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,160,17,
+                    10,10
+    LTEXT           "O5",IDC_STATIC,160,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I05,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,85,10,10
+    LTEXT           "I5",IDC_STATIC,10,85,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O04,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,140,17,
+                    10,10
+    LTEXT           "O4",IDC_STATIC,140,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I04,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,70,10,10
+    LTEXT           "I4",IDC_STATIC,10,70,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O03,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,120,17,
+                    10,10
+    LTEXT           "O3",IDC_STATIC,120,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I03,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,55,10,10
+    LTEXT           "I3",IDC_STATIC,10,55,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O02,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,100,17,
+                    10,10
+    LTEXT           "O2",IDC_STATIC,100,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I02,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,40,10,10
+    LTEXT           "I2",IDC_STATIC,10,40,8,8,NOT WS_GROUP
+    CONTROL         "",IDC_O01,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,80,17,
+                    10,10
+    LTEXT           "O1",IDC_STATIC,80,5,10,8,NOT WS_GROUP
+    CONTROL         "",IDC_I01,"Button",BS_AUTOCHECKBOX | WS_DISABLED | 
+                    WS_TABSTOP,30,25,10,10
+    LTEXT           "I1",IDC_STATIC,10,25,8,8,NOT WS_GROUP
+    EDITTEXT        IDC_IWert,15,145,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    EDITTEXT        IDC_OWertHex,275,15,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    LTEXT           "/",IDC_STATIC,265,17,8,10
+    EDITTEXT        IDC_IWertHex,15,160,25,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    SCROLLBAR       IDC_SB_O01,80,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O01Wert,81,95,8,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_A01,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,15,220,25,65
+    RTEXT           "0",IDC_SL_A01Wert,15,285,20,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O02,100,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O02Wert,101,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O03,120,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O03Wert,121,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O04,140,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O04Wert,141,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O05,160,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O05Wert,161,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O06,180,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O06Wert,181,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O07,200,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O07Wert,201,95,8,8,NOT WS_GROUP
+    SCROLLBAR       IDC_SB_O08,220,30,10,60,SBS_VERT
+    LTEXT           "0",IDC_SB_O08Wert,221,95,8,8,NOT WS_GROUP
+    LTEXT           "A1",IDC_STATIC,20,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_A02,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,55,220,25,65
+    RTEXT           "0",IDC_SL_A02Wert,55,285,20,8,NOT WS_GROUP
+    LTEXT           "A2",IDC_STATIC,60,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_A0X,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,95,220,25,65
+    RTEXT           "0",IDC_SL_A0XWert,95,285,20,8,NOT WS_GROUP
+    LTEXT           "AX",IDC_STATIC,100,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_A0Y,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,135,220,25,65
+    RTEXT           "0",IDC_SL_A0YWert,135,285,20,8,NOT WS_GROUP
+    LTEXT           "AY",IDC_STATIC,140,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_A0Z,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,175,220,25,65
+    RTEXT           "0",IDC_SL_A0ZWert,175,285,20,8,NOT WS_GROUP
+    LTEXT           "AZ",IDC_STATIC,181,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_Vers,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,315,234,25,50
+    RTEXT           "0",IDC_SL_VersWert,300,285,35,8,NOT WS_GROUP
+    LTEXT           "Versorgung",IDC_STATIC,305,225,37,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_DS1,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,215,220,25,65
+    RTEXT           "0",IDC_SL_DS1Wert,215,285,20,8,NOT WS_GROUP
+    LTEXT           "D1",IDC_STATIC,221,210,10,8,NOT WS_GROUP
+    CONTROL         "Slider1",IDC_SL_DS2,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_VERT | WS_TABSTOP,245,220,25,65
+    RTEXT           "0",IDC_SL_DS2Wert,245,285,20,8,NOT WS_GROUP
+    LTEXT           "D2",IDC_STATIC,251,210,10,8,NOT WS_GROUP
+    CTEXT           "/100 = ",IDC_STATIC,55,295,24,8,NOT WS_GROUP
+    CTEXT           "/100 = ",IDC_STATIC,15,295,24,8,NOT WS_GROUP
+    LTEXT           "",IDC_SL_VersVolt,325,295,35,8,NOT WS_GROUP
+    RTEXT           "* 0,01 =",IDC_STATIC,290,295,26,8,NOT WS_GROUP
+    CTEXT           "",IDC_SL_A01Volt,15,305,30,8,NOT WS_GROUP
+    CTEXT           "",IDC_SL_A02Volt,55,305,30,8,NOT WS_GROUP
+    CTEXT           "",IDC_SL_A0ZVolt,170,305,35,8,NOT WS_GROUP
+    CTEXT           "/100 = ",IDC_STATIC,170,295,35,8,NOT WS_GROUP
+    PUSHBUTTON      "Scan USB",IDC_BUTTON_SCANUSB,445,80,50,15
+    LISTBOX         IDC_LIST_USB,371,106,204,94,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL
+    LTEXT           "",IDC_STATIC_USB_DEV,371,96,185,8,NOT WS_GROUP
+    GROUPBOX        "IF-Typ (seriell)",IDC_STATIC_IF_RAHMEN,365,20,210,55
+    EDITTEXT        IDC_EDIT_DS_TOL1,211,185,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "Toleranz",IDC_STATIC_DS_TOL,265,185,28,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DS_TOL2,241,185,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DS_REP1,211,197,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "Repeat",IDC_STATIC_DS_REP,265,199,24,8,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DS_REP2,241,197,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DS_SCHWELLE1,210,330,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    LTEXT           "Schwellwert",IDC_STATIC_DS_SCHWELL,264,330,39,8,NOT 
+                    WS_VISIBLE
+    EDITTEXT        IDC_EDIT_DS_SCHWELLE2,240,330,20,9,ES_AUTOHSCROLL | NOT 
+                    WS_VISIBLE
+    DEFPUSHBUTTON   "Ende",IDC_BUTTON_EXIT,530,354,50,14
+    LTEXT           "Zeit",IDC_STATIC_Time,325,365,40,8,NOT WS_GROUP
+    LTEXT           "FT Robo - Diagnose Software Ver.:",IDC_STATIC_DIAG_VER,
+                    10,345,210,8,NOT WS_GROUP
+    LTEXT           "by Knobloch GmbH",IDC_STATIC,305,345,62,8,NOT WS_GROUP
+    LTEXT           "Version der Interface Firmware:",IDC_STATIC,10,354,98,8,
+                    NOT WS_GROUP
+    LTEXT           "---",IDC_ST_IF_Firmware,110,354,105,8,NOT WS_GROUP
+    LTEXT           "Seriennummer Interface:",IDC_STATIC,305,354,78,8,NOT 
+                    WS_GROUP
+    LTEXT           "---",IDC_ST_IF_AKT_SN,403,354,62,8,NOT WS_GROUP
+    LTEXT           "Ver. FtLib:",IDC_STATIC,230,345,33,8,NOT WS_GROUP
+    LTEXT           "0.0",IDC_ST_LIB_VER,266,345,20,8,NOT WS_GROUP
+    LTEXT           "Device Typ:",IDC_STATIC,10,365,40,8,NOT WS_GROUP
+    LTEXT           "---",IDC_ST_IF_TYP,55,365,160,8,NOT WS_GROUP
+    LTEXT           "Zeit:",IDC_STATIC,305,365,15,8,NOT WS_GROUP
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MFC-Anwendung FtLibDemo1\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "FtLibDemo1\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "FtLibDemo1.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Anwendung FtLibDemo1\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_FTLIBDEMO1_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 585
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 375
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Deutsch (Deutschland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\FtLibDemo1.rc2"  // Nicht mit Microsoft Visual C++ bearbeitete Ressourcen
+#include "l.deu\afxres.rc"          // Standardkomponenten
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

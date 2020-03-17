@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Explorer5d">
+</Property><Property Name="Projektmappendatei" Value="C:\Users\Alex\Desktop\exauto\Explorer5d\Explorer5d.sln">
+</Property><Property Name="Benutzeroptionendatei" Value="C:\Users\Alex\Desktop\exauto\Explorer5d\Explorer5d.suo">
+</Property><Property Name="Date" Value="Samstag, 24. Jänner 2009">
+</Property><Property Name="Time" Value="14:42">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Explorer5d.sln" Description="Datei wurde erfolgreich als &quot;C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Explorer5d.sln&quot; gesichert">
+</Event><Event ErrorLevel="0" Project="" Source="Explorer5d.suo" Description="Datei wurde erfolgreich als &quot;C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Explorer5d.suo&quot; gesichert">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Explorer5d.csproj" Description="Projektdatei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Explorer5d.csproj">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Explorer5d.csproj.user" Description="Die Projektbenutzerdatei wurde erfolgreich als &quot;C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Explorer5d.csproj.user&quot; gesichert.">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Ex5dMain.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Ex5dMain.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Ex5dMain.Designer.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Ex5dMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Explorer.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Explorer.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Program.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Properties\AssemblyInfo.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Properties\Resources.Designer.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Properties\Settings.Designer.cs" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Properties\Settings.settings" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Ex5dMain.resx" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Ex5dMain.resx">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Properties\Resources.resx" Description="Datei erfolgreich gesichert als C:\Users\Alex\Desktop\exauto\Explorer5d\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Explorer5d.csproj" Description="Projekt erfolgreich konvertiert">
+</Event><Event ErrorLevel="3" Project="Explorer5d" Source="Explorer5d.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Explorer5d.sln" Description="Die Projektmappe wurde erfolgreich konvertiert.">
+</Event><Event ErrorLevel="3" Project="" Source="Explorer5d.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Explorer5d" Source="Explorer5d.csproj" Description="Überprüfung abgeschlossen: Aktualisierung von Projektdateien nicht erforderlich.">
+</Event></UpgradeLog>

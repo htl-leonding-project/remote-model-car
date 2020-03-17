@@ -1,0 +1,187 @@
+= Pflichtenheft <Roboterführerschein>
+// Metadata
+Philipp Edlinger <Edlinger.philipp2002@gmail.com>
+1.0, 07.02.2020:
+
+// Settings
+:source-highlighter: coderay
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// Refs:
+:imagesdir: images
+:sourcedir-code: src/main/java/at/htl/jdbcprimer
+:sourcedir-test: src/test/java/at/htl/jdbcprimer
+:toc:
+
+Version: {revnumber} +
+Version Date: {revdate} +
+Author: {Author} {email}
+
+++++
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+++++
+
+
+== Ausgangssituation
+
+Die HTL Leonding ist eine Höhere Technische Lehranstalt in Oberösterreich. In Zuge
+der Ausbildung müssen die Schüler Projekte umsetzen.
+
+== Istzustand
+
+Es sind mehrere Roboterfahrzeuge vorhanden, welche seit längerer Zeit außer Betrieb sind.
+Vor drei Jahren wurden sie von ehemaligen Drittklasslern aus dem Informatik Zweig programmiert.
+
+=== Aktivitäten
+Diagramm 1: Steuerung
+[plantuml, id=""activityOne", width="600px", height="200px"]
+--
+@startuml
+|FahrerIn|
+start
+:Aktiviert Auto;
+:Startet Client;
+:Stellt Serververbindung her;
+|Client|
+while(Verbindung steht?)
+|FahrerIn|
+:Gibt die Fahrtrichtung an;
+|Client|
+:Interpretiert Befehl;
+|Server|
+:Führt Befehl aus;
+endwhile
+|Client|
+:Abbruch;
+stop
+@enduml
+--
+
+Diagramm 2: Kameraübertragung
+[plantuml, id=""activityTwo", width="600px", height="200px"]
+--
+@startuml
+|FahrerIn|
+start
+:Öffnet Browserfenster;
+:Tippt IP-Adresse in die Suchleiste ein;
+|Client|
+while(Seite geöffnet?)
+:Schickt Anfrage an den Server;
+|Server|
+:Verwertet die Kameraaufzeichnung;
+:Schickt Aufzeichnung an den Client;
+|Client|
+:Zeigt erhaltene Aufnahmen an;
+endwhile
+:Abbruch;
+stop
+@enduml
+--
+
+== Problemstellung
+
+Die Autos sind außer Betrieb und lassen sich nicht steuern.
+
+== Aufgabenstellung
+
+=== Funktionale Anforderungen
+
+==== Anwendungsfalldiagramm (Use-Case-Diagram)
+
+[plantuml, id="useCase", width="600px", height="200px"]
+--
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+actor FahrerIn
+rectangle Autokommunikation {
+    FahrerIn -- (Autolenkung)
+    (Autolenkung) -- (Desktop)
+    (Autolenkung) -- (Mobil)
+    (Desktop) -- (Tanzmatte)
+    (Desktop) -- (Joystick)
+}
+@enduml
+--
+
+==== Use-Case 1
+
+===== Charakterisierende Informationen Use-Case
+
+[cols=2]
+|===
+| Übergeordneter elementarer Geschäftsprozess:
+| Die Benutzer wollen die Autos steuern und wählen eine Steuerung nach Wahl. Anschließend stellen Sie eine Verbinndung mit den Sever über den Client her. Die Fahrzeuge sind nun steuerbereit.
+| Ziel des Use Cases:
+| Das Use Case sollten den Benutzer aufklären, wie man mit den Auto kommunizieren kann.
+
+| Umgebende Systemgrenze:
+| Ein auf den Autos laufender Server reagiert auf den Client.
+
+| Vorbedingung:
+| Der Server muss jeweils auf den Autos laufen um eine Verbindung zwischen ihm und den Client zu gewährleisten.
+
+| Nachbedingung bei erfolgreicher Ausführung:
+| Das Auto reagiert auf die Steuerung und folgedessen fährt das Auto.
+
+| Beschreibung:
+a|
+* Art der Steurung wählen
+* als Client die Verbindung mit den Server aufbauen
+* Autos steuern/lenken
+
+| Beteiligte Nutzer:
+| AutofahrerIn
+
+| Auslösendes Ereignis:
+| Imput des Client (Steuerung nutzen)
+|===
+
+===== GUI für den Aufruf des Use-Case 1
+
+
+=== Nicht-funktionale Anforderungen
+
+Typen von Produktcharakteristiken
+
+Typ USE: 		Benutzbarkeitsanforderung
+
+
+Die in Abschnitt 1 beschriebene Zielgruppe liegt diesen Anforderungen zugrunde. Wie muß die Software beschaffen sein, damit diese Zielgruppe gerne damit arbeitet?
+Beispiel: Die Software soll flexibel für unterschiedliche Arbeitsweisen einsetzbar sein.
+ODER
+Die Software soll dem Erscheinungsbild anderer Produkte des Herstellers
+entsprechen.
+
+Das GUI sollte für den Client einfache gestalltet sein, sodass schnelle inbetriebnahmen vorhanden ist.
+
+
+Typ EFFIZIENZ: 	Effizienzanforderung
+
+Hier geht es sowohl um Laufzeit- als auch um Speichereffizienz. Was wird unter dem sparsamen Einsatz dieser Ressourcen verstanden?
+Beispiel: Die Berechnung darf nicht länger als 0,25 Sekunden dauern.
+
+Zwischen Eingabe des Clients und Ausführung des Servers darf es keine zu hohe Latenz geben.
+
+Typ PFLEGE:	Wartbarkeits- und Portierbarkeitsanforderung
+
+Welcher Grad an Änderbarkeit wird gefordert? Hier werden, soweit wie möglich, kommende Anpassungen und Erweiterungen vorhergesehen.
+Beispiel: Das Produkt soll später auch in englischer Sprache verfügbar sein.
+
+Der Anwendungsfall der Autos würde sich in der Zukunft nicht nur auf die Steuerung fokusieren, sondern könnte auch Bilder übertragen oder Musik abspielen.
+
+Typ SICHER:	Sicherheitsanforderung
+
+Zu den Sicherheitsanforderungen gehören die Aspekte Vertraulichkeit, Datenintegrität und Verfügbarkeit. Wie sehr müssen die Daten vor dem Zugriff durch Dritte geschützt werden? Ist es entscheidend, die Korrektheit der erfassten Daten und ihre Konsistenz zu gewährleisten? Dürfen Systemausfälle vorkommen?
+Beispiel: Das System muss gewährleisten, dass Daten nie verändert werden können.
+
+Die Autos müssen in einen abgesicherten Bereich agieren, sodass man keine "Verkehrsbedrohung" darstellt und unter anderem nicht die Verbindung verloren geht.
+
+
+== Zielsetzung
+
+TIP: Beschreibung der Leistungswirkung
+
+== Mengengerüst
+TIP: Hier sind die Anzahl der erwarteten Stammdaten sowie der Geschäftsfälle und die daraus resultierenden Zeilen in den Tabellen anzugeben. Diese Angaben sind wichtig, um einerseits die benötigte Speicherform (z.B. XML-Datei oder Datenbank) bzw. die geeignete Datenbank auswählen zu können. Auch können von der Anzahl der Geschäftsfälle besondere Anforderungen an das zu entwickelnde System abgeleitet werden (z.B. eine sehr effizient zu bedienende UI, wenn sehr viele Daten zu bearbeiten sind).

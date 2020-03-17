@@ -1,0 +1,153 @@
+1 1: Inleiding - fischertechnik modellen besturen met ROBO Pro
+1 1: Inleiding - fischertechnik modellen besturen met ROBO Pro=_1_
+2 1.1: Installatie van ROBO Pro
+2 1.1: Installatie van ROBO Pro=_2_
+2 1.2: Installatie van de USD-driver voor de ROBO-Interface
+2 1.2: Installatie van de USD-driver voor de ROBO-Interface=_3_
+2 1.3: Eerste stappen
+2 1.3: Eerste stappen=_4_
+1 2: Voor de programmering een korte test van de hardware
+1 2: Voor de programmering een korte test van de hardware=_5_
+2 2.1: De interface op de PC aansluiten 
+2 2.1: De interface op de PC aansluiten =_6_
+2 2.2: Opdat de verbinding goed zou werken - de instellingen van de interface 
+2 2.2: Opdat de verbinding goed zou werken - de instellingen van de interface =_7_
+2 2.3: Als de verbinding niet goed werkt - geen verbinding met de Interface? 
+2 2.3: Als de verbinding niet goed werkt - geen verbinding met de Interface? =_8_
+2 2.4: Werkt alles - de Interfacetest
+2 2.4: Werkt alles - de Interfacetest=_9_
+1 3: Niveau 1: Je eerste besturingsprogramma
+1 3: Niveau 1: Je eerste besturingsprogramma=_10_
+2 3.1: Een nieuw programma maken
+2 3.1: Een nieuw programma maken=_11_
+2 3.2: De elementen van het besturingsprogramma 
+2 3.2: De elementen van het besturingsprogramma =_12_
+2 3.3: Programma-elementen invoegen, verschuiven en veranderen
+2 3.3: Programma-elementen invoegen, verschuiven en veranderen=_13_
+2 3.4: Verbinden van de programma-elementen
+2 3.4: Verbinden van de programma-elementen=_14_
+2 3.5: Testen van het eerste besturingsprogramma 
+2 3.5: Testen van het eerste besturingsprogramma =_15_
+2 3.6: Verdere programma-elementen
+2 3.6: Verdere programma-elementen=_16_
+2 3.6.1: Wachttijd =_17_
+2 3.6.2: Wachten op ingang=_18_
+2 3.6.3: Impulsteller=_19_
+2 3.6.4: Tellus =_20_
+2 3.7: Online- of Download-bedrijfsmodus -Wat is precies het verschil? 
+2 3.7: Online- of Download-bedrijfsmodus -Wat is precies het verschil? =_21_
+2 3.8: Tips en trucks 
+2 3.8: Tips en trucks =_22_
+1 4: Niveau 2: Werken met subprogramma's
+1 4: Niveau 2: Werken met subprogramma's=_23_
+2 4.1: Je eerste subprogramma
+2 4.1: Je eerste subprogramma=_24_
+2 4.2: De bibliotheek van de subprogramma's
+2 4.2: De bibliotheek van de subprogramma's=_25_
+2 4.2.1: Gebruiken van de bibliotheek=_26_
+2 4.2.2: Het gebruik van de eigen bibliotheek=_27_
+2 4.3: Bewerken van subprogrammasymbolen
+2 4.3: Bewerken van subprogrammasymbolen=_28_
+1 5: Niveau 3: Variabelen, bedieningsvelden  & Co
+1 5: Niveau 3: Variabelen, bedieningsvelden  & Co=_29_
+2 5.1: Variabelen en bevelen
+2 5.1: Variabelen en bevelen=_30_
+2 5.2: Variabelen en meerdere processen
+2 5.2: Variabelen en meerdere processen=_31_
+2 5.3: Bedieningsvelden 
+2 5.3: Bedieningsvelden =_32_
+2 5.4: Timer
+2 5.4: Timer=_33_
+2 5.5: Bevelingangen voor subprogramma's
+2 5.5: Bevelingangen voor subprogramma's=_34_
+2 5.6: Lijsten (Arrays)
+2 5.6: Lijsten (Arrays)=_35_
+2 5.7: Operatoren
+2 5.7: Operatoren=_36_
+1 6: Uitbreidingsmodule en meerdere interfaces aansturen
+1 6: Uitbreidingsmodule en meerdere interfaces aansturen=_37_
+2 6.1: Uitbreidingsmodule
+2 6.1: Uitbreidingsmodule=_38_
+2 6.2: Meerdere interfaces
+2 6.2: Meerdere interfaces=_39_
+2 6.3: Interface-toewijzingen in subprogramma's
+2 6.3: Interface-toewijzingen in subprogramma's=_40_
+2 6.4: Tips en trucks 
+2 6.4: Tips en trucks =_41_
+2 6.5: Wijzigen van het serienummer van de Interface of van de firmwareversie
+2 6.5: Wijzigen van het serienummer van de Interface of van de firmwareversie=_42_
+1 7: Overzicht van programma-elementen
+1 7: Overzicht van programma-elementen=_43_
+2 7.1: Basiselementen (Niveau 1)
+2 7.1: Basiselementen (Niveau 1)=_44_
+2 7.1.1: Start=_45_
+2 7.1.2: Einde=_46_
+2 7.1.3: Digitale vertakking =_47_
+2 7.1.4: Analoge vertakking=_48_
+2 7.1.5: Wachttijd=_49_
+2 7.1.6: Motoruitgang=_50_
+2 7.1.7: Lampuitgang (Niveau2)=_51_
+2 7.1.8: Wachten op Ingang=_52_
+2 7.1.9:  Impulsteller=_53_
+2 7.1.10: Tellus=_54_
+2 7.2: Subprogramma I/O (Niveau2-3)
+2 7.2: Subprogramma I/O (Niveau2-3)=_55_
+2 7.2.1: Subprogramma-ingang (Niveau 2)=_56_
+2 7.2.2: Subprogramma-uitgang (Niveau 2)=_57_
+2 7.2.3: Subprogramma-bevelingang (Niveau 3)=_58_
+2 7.2.4: Subprogramma-beveluitgang (Niveau 3)=_59_
+2 7.3: Variabele, Lijst, ... (Niveau 3)
+2 7.3: Variabele, Lijst, ... (Niveau 3)=_60_
+2 7.3.1: Variabele (globaal)=_61_
+2 7.3.2: Lokale variabele=_62_
+2 7.3.3: Constanten=_63_
+2 7.3.4: Timer-variabele=_64_
+2 7.3.5: Lijst=_65_
+2 7.4: Bevelen (Niveau 3)
+2 7.4: Bevelen (Niveau 3)=_66_
+2 7.4.1: \= ( Toewijzen )=_67_
+2 7.4.2: + ( Plus )=_68_
+2 7.4.3: - ( Min )=_69_
+2 7.4.4: - Rechts=_70_
+2 7.4.5: - Links=_71_
+2 7.4.6: - Stop=_72_
+2 7.4.7: - Aan=_73_
+2 7.4.8: - Uit=_74_
+2 7.4.9: - Tekst=_75_
+2 7.4.10: - Waarde toevoegen=_76_
+2 7.4.11: - Waarde(n) verwijderen=_77_
+2 7.4.12:  - Waarde vervangen=_78_
+2 7.5: Vergelijkingen, wachten op, ... (Niveau 3)
+2 7.5: Vergelijkingen, wachten op, ... (Niveau 3)=_79_
+2 7.5.1: Vertakking ( met data-ingang) =_80_
+2 7.5.2: Vergelijking met vaste waarde =_81_
+2 7.5.3: Vergelijking=_82_
+2 7.5.4: Wachttijd=_83_
+2 7.5.5: Wachten op… =_84_
+2 7.5.6: Impulsteller=_85_
+2 7.6: Interface-Ingangen / -Uitgangen, …
+2 7.6: Interface-Ingangen / -Uitgangen, …=_86_
+2 7.6.1: Digitale ingang=_87_
+2 7.6.2: Analoge ingang=_88_
+2 7.6.3: Infrarood-ingang=_89_
+2 7.6.4: Motoruitgang=_90_
+2 7.6.5: Lampuitgang=_91_
+2 7.6.6: Bedieningsveld-ingang=_92_
+2 7.6.7: Bedieningsveld-uitgang=_93_
+2 7.7: Operatoren
+2 7.7: Operatoren=_94_
+2 7.7.1: Aritmetische operatoren=_95_
+2 7.7.2: Logische operatoren=_96_
+1 8: Overzicht van bedieningselementen en bedieningsvelden 
+1 8: Overzicht van bedieningselementen en bedieningsvelden =_97_
+2 8.1: Weergaven
+2 8.1: Weergaven=_98_
+2 8.1.1: Meetapparaat=_99_
+2 8.1.2: Tekstweergave=_100_
+2 8.1.3: Weergavelamp=_101_
+2 8.2: Besturingselementen
+2 8.2: Besturingselementen=_102_
+2 8.2.1: Knop=_103_
+2 8.2.2: Regelaars=_104_
+1 9: Tekenfuncties
+1 9: Tekenfuncties=_105_

@@ -1,0 +1,153 @@
+1 1: Introducción - Controlar los modelos de fischertechnik mediante ROBO Pro
+1 1: Introducción - Controlar los modelos de fischertechnik mediante ROBO Pro=_1_
+2 1.1: Instalación de ROBO Pro
+2 1.1: Instalación de ROBO Pro=_2_
+2 1.2: Instalación del controlador USB para la ROBO-Interface
+2 1.2: Instalación del controlador USB para la ROBO-Interface=_3_
+2 1.3: Primeros pasos
+2 1.3: Primeros pasos=_4_
+1 2: Antes de la programación, un breve test del hardware
+1 2: Antes de la programación, un breve test del hardware=_5_
+2 2.1: Conexión de la interfase al ordenador
+2 2.1: Conexión de la interfase al ordenador=_6_
+2 2.2: Para que la conexión sea correcta: las configuraciones de la interfase
+2 2.2: Para que la conexión sea correcta: las configuraciones de la interfase=_7_
+2 2.3: Si la conexión es incorrecta: ¡no hay conexión a la interfase!
+2 2.3: Si la conexión es incorrecta: ¡no hay conexión a la interfase!=_8_
+2 2.4: Todo funciona: prueba de interfase
+2 2.4: Todo funciona: prueba de interfase=_9_
+1 3: Nivel 1: Tu primer programa de control
+1 3: Nivel 1: Tu primer programa de control=_10_
+2 3.1: Crear un nuevo programa
+2 3.1: Crear un nuevo programa=_11_
+2 3.2: Los elementos del programa de control
+2 3.2: Los elementos del programa de control=_12_
+2 3.3: Insertar, desplazar y modificar elementos de programa
+2 3.3: Insertar, desplazar y modificar elementos de programa=_13_
+2 3.4: Interconectar los elementos de programa
+2 3.4: Interconectar los elementos de programa=_14_
+2 3.5: Probar el primer programa de control
+2 3.5: Probar el primer programa de control=_15_
+2 3.6: Más elementos de programa
+2 3.6: Más elementos de programa=_16_
+2 3.6.1: Tiempo de espera=_17_
+2 3.6.2: Esperar a entrada=_18_
+2 3.6.3: Contador de impulsos=_19_
+2 3.6.4: Bucle contador=_20_
+2 3.7: Modo online o modo de descarga.¿Cuál es la diferencia?
+2 3.7: Modo online o modo de descarga.¿Cuál es la diferencia?=_21_
+2 3.8: Consejos y trucos
+2 3.8: Consejos y trucos=_22_
+1 4: Nivel 2: Trabajar con subprogramas
+1 4: Nivel 2: Trabajar con subprogramas=_23_
+2 4.1: Tu primer subprograma
+2 4.1: Tu primer subprograma=_24_
+2 4.2: La biblioteca del subprograma
+2 4.2: La biblioteca del subprograma=_25_
+2 4.2.1: Utilizar la biblioteca=_26_
+2 4.2.2: Utilizar la propia biblioteca=_27_
+2 4.3: Editar símbolos de subprogramas
+2 4.3: Editar símbolos de subprogramas=_28_
+1 5: Nivel 3: Variables, paneles de control & cía
+1 5: Nivel 3: Variables, paneles de control & cía=_29_
+2 5.1: Variables e instrucciones
+2 5.1: Variables e instrucciones=_30_
+2 5.2: Variables y varios procesos
+2 5.2: Variables y varios procesos=_31_
+2 5.3: Paneles de control
+2 5.3: Paneles de control=_32_
+2 5.4: Temporizador
+2 5.4: Temporizador=_33_
+2 5.5: Entradas de comando para subprogramas
+2 5.5: Entradas de comando para subprogramas=_34_
+2 5.6: Listados (Arrays)
+2 5.6: Listados (Arrays)=_35_
+2 5.7: Operadores
+2 5.7: Operadores=_36_
+1 6: Módulos de extensión y gestión de más de una interfase
+1 6: Módulos de extensión y gestión de más de una interfase=_37_
+2 6.1: Módulos de extensión
+2 6.1: Módulos de extensión=_38_
+2 6.2: Múltiples interfases
+2 6.2: Múltiples interfases=_39_
+2 6.3: Asignaciones de interfase en subprogramas
+2 6.3: Asignaciones de interfase en subprogramas=_40_
+2 6.4: Consejos & Trucos
+2 6.4: Consejos & Trucos=_41_
+2 6.5: Cambiar el número de serie de la interfase o la versión de firmware
+2 6.5: Cambiar el número de serie de la interfase o la versión de firmware=_42_
+1 7: Los elementos de programa
+1 7: Los elementos de programa=_43_
+2 7.1: Elementos básicos (Nivel 1)
+2 7.1: Elementos básicos (Nivel 1)=_44_
+2 7.1.1: Inicio=_45_
+2 7.1.2: Fin=_46_
+2 7.1.3: Bifurcación digital=_47_
+2 7.1.4: Bifurcación analógica=_48_
+2 7.1.5: Tiempo de espera=_49_
+2 7.1.6: Salida de motor=_50_
+2 7.1.7: Salida de lámpara (Nivel 2)=_51_
+2 7.1.8: Esperar a entrada=_52_
+2 7.1.9:  Contador de impulsos=_53_
+2 7.1.10:  Bucle contador=_54_
+2 7.2: Subprograma I/O (Nivel 2-3)
+2 7.2: Subprograma I/O (Nivel 2-3)=_55_
+2 7.2.1: Entrada de subprograma (Nivel 2)=_56_
+2 7.2.2: Salida de subprograma (Nivel 2)=_57_
+2 7.2.3: Entrada de comando de subprograma (Nivel 3)=_58_
+2 7.2.4: Salida de comando de subprograma (Nivel 3)=_59_
+2 7.3: Variable, Listado, ... (Nivel 3)
+2 7.3: Variable, Listado, ... (Nivel 3)=_60_
+2 7.3.1: Variable (global)=_61_
+2 7.3.2: Variable local=_62_
+2 7.3.3: Constante=_63_
+2 7.3.4: Variable de temporizador=_64_
+2 7.3.5: Listado=_65_
+2 7.4: Instrucciones (Nivel 3)
+2 7.4: Instrucciones (Nivel 3)=_66_
+2 7.4.1: \= ( Asignar )=_67_
+2 7.4.2: + ( Más )=_68_
+2 7.4.3: - ( Menos )=_69_
+2 7.4.4: Derecha=_70_
+2 7.4.5: Izquierda=_71_
+2 7.4.6: Detener=_72_
+2 7.4.7: ON=_73_
+2 7.4.8: OFF=_74_
+2 7.4.9: Texto=_75_
+2 7.4.10:  Agregar valor=_76_
+2 7.4.11:  Eliminar valor(es)=_77_
+2 7.4.12:  Intercambiar valores=_78_
+2 7.5: Compara, Esperar a, … (Nivel 3)
+2 7.5: Compara, Esperar a, … (Nivel 3)=_79_
+2 7.5.1: Bifurcación ( con entrada de datos )=_80_
+2 7.5.2: Comparación con valor fijo =_81_
+2 7.5.3: Comparación=_82_
+2 7.5.4: Tiempo de espera=_83_
+2 7.5.5: Esperar a… =_84_
+2 7.5.6: Contador de impulsos=_85_
+2 7.6: Entradas / salidas de la interfase, …
+2 7.6: Entradas / salidas de la interfase, …=_86_
+2 7.6.1: Entrada digital=_87_
+2 7.6.2: Entrada analógica=_88_
+2 7.6.3: Entrada IR=_89_
+2 7.6.4: Salida de motor=_90_
+2 7.6.5: Salida de lámpara=_91_
+2 7.6.6: Entrada del panel de control=_92_
+2 7.6.7: Salida del panel de control=_93_
+2 7.7: Operadores
+2 7.7: Operadores=_94_
+2 7.7.1: Operadores aritméticos=_95_
+2 7.7.2: Operadores lógicos=_96_
+1 8: Los elementos de control y paneles de control
+1 8: Los elementos de control y paneles de control=_97_
+2 8.1: Indicaciones
+2 8.1: Indicaciones=_98_
+2 8.1.1: Aparato de medición=_99_
+2 8.1.2: Mensaje de texto=_100_
+2 8.1.3: Lámpara indicadora=_101_
+2 8.2: Elementos de mando
+2 8.2: Elementos de mando=_102_
+2 8.2.1: Botón=_103_
+2 8.2.2: Regulador=_104_
+1 9: Funciones de dibujo
+1 9: Funciones de dibujo=_105_

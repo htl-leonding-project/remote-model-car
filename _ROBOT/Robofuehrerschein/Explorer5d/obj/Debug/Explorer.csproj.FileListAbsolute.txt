@@ -1,0 +1,62 @@
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Dokumente und Einstellungen\tdot11\Desktop\svn\Explorer5d\obj\Debug\Explorer.csproj.GenerateResource.Cache
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\Flo\Desktop\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\Flo\Desktop\tadeot\Robofußball\Explorer5d\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\GenerateResource-ResGen.read.4.tlog
+C:\Users\Flo\Desktop\tadeot\Robofussball\Explorer5d\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.exe
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.pdb
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\ResolveAssemblyReference.cache
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\bin\Debug\Explorer5d.exe
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\bin\Debug\FishFace2005.DLL
+C:\temp\tadeot\2012\Robofuehrerschein\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\bin\Debug\Explorer5d.exe
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\bin\Debug\Explorer5d.pdb
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\bin\Debug\FishFace2005.DLL
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\bin\Debug\FishFace2005.xml
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.Explorer5d.resources
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.Properties.Resources.resources
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\obj\Debug\Explorer.csproj.GenerateResource.Cache
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.exe
+C:\Users\living\Desktop\Robofuehrerschein\Explorer5d\obj\Debug\Explorer5d.pdb

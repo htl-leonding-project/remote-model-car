@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HOTRoad</string>
+    <string name="forward">↑</string>
+    <string name="right">→</string>
+    <string name="backward">↓</string>
+    <string name="left">←</string>
+    <string name="connection_error">Netzwerkfehler!</string>
+    <string name="about_us">Über uns</string>
+    <string name="about_us_text">Himbeerkuchen 2013/2014</string>
+    <string name="connect">Verbinden…</string>
+    <string name="progress_info">Verbindung wird hergestellt…</string>
+    <string name="connecting_failed">Fehler beim Verbinden!</string>
+    <string name="default_ip_address">10.10.0.1</string>
+    <string name="reset">-</string>
+    <string name="secret_text">KS MAFIA ÜBERNIMMT!</string>
+    <string name="ip_address_label">IP-Adresse</string>
+    <string name="text_alt">Alternative Steuerung?</string>
+    <string name="text_vision">Kamerasicht</string>
+</resources>

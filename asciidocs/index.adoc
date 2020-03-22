@@ -183,11 +183,6 @@ Die Autos müssen in einen abgesicherten Bereich agieren, sodass man keine "Verk
 
 Besucher sollen am Tag der offenen Tür mit den Roboterfahrzeugen den Roboterführerschein machen können.
 
-=== Mengengerüst
-
-==== 
-
-
 
 == User-Stories
 

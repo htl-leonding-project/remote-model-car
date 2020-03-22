@@ -5,9 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.10">
-<meta name="author" content="firstname lastname">
+<meta name="author" content="Philipp Edlinger">
 <link rel="icon" type="image/png" href="themes/favicon.png">
-<title>Car Go</title>
+<title>Car Go - Roboterführerschein</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -449,121 +449,277 @@ pre.rouge .hll * {
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>Car Go</h1>
+<h1>Car Go - Roboterführerschein</h1>
 <div class="details">
-<span id="author" class="author">firstname lastname</span><br>
-<span id="revnumber">version 1.0.1,</span>
-<span id="revdate">yyyy-mm-dd</span>
+<span id="author" class="author">Philipp Edlinger</span><br>
+<span id="email" class="email"><a href="mailto:Edlinger.philipp2002@gmail.com">Edlinger.philipp2002@gmail.com</a></span><br>
+<span id="revnumber">version 1.0,</span>
+<span id="revdate">07.02.2020</span>
+<br><span id="revremark"></span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Table of Contents</div>
 <ul class="sectlevel1">
-<li><a href="#_pflichtenheft_was_mache_ich">1. Pflichtenheft "Was mache ich"</a>
+<li><a href="#_pflichtenheft">1. Pflichtenheft</a>
 <ul class="sectlevel2">
 <li><a href="#_ausgangssituation">1.1. Ausgangssituation</a></li>
 <li><a href="#_istzustand">1.2. Istzustand</a></li>
 <li><a href="#_problemstellung">1.3. Problemstellung</a></li>
 <li><a href="#_aufgabenstellung">1.4. Aufgabenstellung</a></li>
-<li><a href="#_ziele">1.5. Ziele</a></li>
+<li><a href="#_zielsetzung">1.5. Zielsetzung</a></li>
 <li><a href="#_mengengerüst">1.6. Mengengerüst</a></li>
-<li><a href="#_rahmenbedingungen">1.7. Rahmenbedingungen</a></li>
-</ul>
-</li>
-<li><a href="#_entwurf_wie_mache_ich_es">2. Entwurf "Wie mache ich es"</a>
-<ul class="sectlevel2">
-<li><a href="#_systemarchitektur">2.1. Systemarchitektur</a></li>
-<li><a href="#">2.2. &#8230;&#8203;</a></li>
-</ul>
-</li>
-<li><a href="#_projekthandbuch_organisatorische_rahmenbedingungen">3. Projekthandbuch "Organisatorische Rahmenbedingungen"</a>
-<ul class="sectlevel2">
-<li><a href="#_gantt_diagramm">3.1. GANTT-Diagramm</a></li>
 </ul>
 </li>
 </ul>
 </div>
 </div>
 <div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Version: 1.0<br>
+Version Date: 07.02.2020<br>
+Author: Philipp Edlinger <a href="mailto:Edlinger.philipp2002@gmail.com">Edlinger.philipp2002@gmail.com</a></p>
+</div>
+<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</div>
+</div>
 <div class="sect1">
-<h2 id="_pflichtenheft_was_mache_ich"><a class="anchor" href="#_pflichtenheft_was_mache_ich"></a>1. Pflichtenheft "Was mache ich"</h2>
+<h2 id="_pflichtenheft"><a class="anchor" href="#_pflichtenheft"></a>1. Pflichtenheft</h2>
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_ausgangssituation"><a class="anchor" href="#_ausgangssituation"></a>1.1. Ausgangssituation</h3>
 <div class="paragraph">
-<p>Die HTL Leonding ist eine HTL im oö. Zentralraum mit ca. 1000 Schülern und den Fachabteilungen Medientechnik, Informatik, &#8230;&#8203;.</p>
+<p>Die HTL Leonding ist eine Höhere Technische Lehranstalt in Oberösterreich. In Zuge
+der Ausbildung müssen die Schüler Projekte umsetzen.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_istzustand"><a class="anchor" href="#_istzustand"></a>1.2. Istzustand</h3>
-<div class="listingblock">
+<div class="paragraph">
+<p>Es sind mehrere Roboterfahrzeuge vorhanden, welche seit längerer Zeit außer Betrieb sind.
+Vor drei Jahren wurden sie von ehemaligen Drittklasslern aus dem Informatik Zweig programmiert.</p>
+</div>
+<div class="sect3">
+<h4 id="_aktivitäten"><a class="anchor" href="#_aktivitäten"></a>1.2.1. Aktivitäten</h4>
+<div class="paragraph">
+<p>Diagramm 1: Steuerung</p>
+</div>
+<div id="" class="listingblock">
 <div class="content">
-<pre>Beschreibung der speziellen Situation zB in der Abteilung</pre>
+<pre>Failed to generate image: Asciidoctor::Diagram::PlantUmlBlockProcessor does not support output format activityOne"
+@startuml
+|FahrerIn|
+start
+:Aktiviert Auto;
+:Startet Client;
+:Stellt Serververbindung her;
+|Client|
+while(Verbindung steht?)
+|FahrerIn|
+:Gibt die Fahrtrichtung an;
+|Client|
+:Interpretiert Befehl;
+|Server|
+:Führt Befehl aus;
+endwhile
+|Client|
+:Abbruch;
+stop
+@enduml</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Diagramm 2: Kameraübertragung</p>
+</div>
+<div id="" class="listingblock">
+<div class="content">
+<pre>Failed to generate image: Asciidoctor::Diagram::PlantUmlBlockProcessor does not support output format activityTwo"
+@startuml
+|FahrerIn|
+start
+:Öffnet Browserfenster;
+:Tippt IP-Adresse in die Suchleiste ein;
+|Client|
+while(Seite geöffnet?)
+:Schickt Anfrage an den Server;
+|Server|
+:Verwertet die Kameraaufzeichnung;
+:Schickt Aufzeichnung an den Client;
+|Client|
+:Zeigt erhaltene Aufnahmen an;
+endwhile
+:Abbruch;
+stop
+@enduml</pre>
+</div>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_problemstellung"><a class="anchor" href="#_problemstellung"></a>1.3. Problemstellung</h3>
-
+<div class="paragraph">
+<p>Die Autos sind außer Betrieb und lassen sich nicht steuern.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_aufgabenstellung"><a class="anchor" href="#_aufgabenstellung"></a>1.4. Aufgabenstellung</h3>
 <div class="sect3">
 <h4 id="_funktionale_anforderungen"><a class="anchor" href="#_funktionale_anforderungen"></a>1.4.1. Funktionale Anforderungen</h4>
-<div class="imageblock">
+<div class="sect4">
+<h5 id="_anwendungsfalldiagramm_use_case_diagram"><a class="anchor" href="#_anwendungsfalldiagramm_use_case_diagram"></a>Anwendungsfalldiagramm (Use-Case-Diagram)</h5>
+<div id="useCase" class="imageblock">
 <div class="content">
-<img src="images/wireframe.png" alt="wireframe" width="376" height="84">
+<img src="images/diag-19a2f64a19c5176661c8544498a9c15f.png" alt="diag 19a2f64a19c5176661c8544498a9c15f" width="600px" height="200px">
 </div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_use_case_1"><a class="anchor" href="#_use_case_1"></a>Use-Case 1</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_charakterisierende_informationen_use_case"><a class="anchor" href="#_charakterisierende_informationen_use_case"></a>Charakterisierende Informationen Use-Case</h5>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Übergeordneter elementarer Geschäftsprozess:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Die Benutzer wollen die Autos steuern und wählen eine Steuerung nach Wahl. Anschließend stellen Sie eine Verbinndung mit den Sever über den Client her. Die Fahrzeuge sind nun steuerbereit.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ziel des Use Cases:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Das Use Case sollten den Benutzer aufklären, wie man mit den Auto kommunizieren kann.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Umgebende Systemgrenze:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ein auf den Autos laufender Server reagiert auf den Client.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Vorbedingung:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Der Server muss jeweils auf den Autos laufen um eine Verbindung zwischen ihm und den Client zu gewährleisten.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Nachbedingung bei erfolgreicher Ausführung:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Das Auto reagiert auf die Steuerung und folgedessen fährt das Auto.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beschreibung:</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
+<ul>
+<li>
+<p>Art der Steurung wählen</p>
+</li>
+<li>
+<p>als Client die Verbindung mit den Server aufbauen</p>
+</li>
+<li>
+<p>Autos steuern/lenken</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beteiligte Nutzer:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">AutofahrerIn</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Auslösendes Ereignis:</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Imput des Client (Steuerung nutzen)</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect4">
+<h5 id="_gui_für_den_aufruf_des_use_case_1"><a class="anchor" href="#_gui_für_den_aufruf_des_use_case_1"></a>GUI für den Aufruf des Use-Case 1</h5>
+
 </div>
 </div>
 <div class="sect3">
-<h4 id="_nichtfunktionale_anforderungen_nfa"><a class="anchor" href="#_nichtfunktionale_anforderungen_nfa"></a>1.4.2. Nichtfunktionale Anforderungen (NFA)</h4>
-
+<h4 id="_nicht_funktionale_anforderungen"><a class="anchor" href="#_nicht_funktionale_anforderungen"></a>1.4.2. Nicht-funktionale Anforderungen</h4>
+<div class="paragraph">
+<p>Typen von Produktcharakteristiken</p>
+</div>
+<div class="paragraph">
+<p>Typ USE: 		Benutzbarkeitsanforderung</p>
+</div>
+<div class="paragraph">
+<p>Die in Abschnitt 1 beschriebene Zielgruppe liegt diesen Anforderungen zugrunde. Wie muß die Software beschaffen sein, damit diese Zielgruppe gerne damit arbeitet?
+Beispiel: Die Software soll flexibel für unterschiedliche Arbeitsweisen einsetzbar sein.
+ODER
+Die Software soll dem Erscheinungsbild anderer Produkte des Herstellers
+entsprechen.</p>
+</div>
+<div class="paragraph">
+<p>Das GUI sollte für den Client einfache gestalltet sein, sodass schnelle inbetriebnahmen vorhanden ist.</p>
+</div>
+<div class="paragraph">
+<p>Typ EFFIZIENZ: 	Effizienzanforderung</p>
+</div>
+<div class="paragraph">
+<p>Hier geht es sowohl um Laufzeit- als auch um Speichereffizienz. Was wird unter dem sparsamen Einsatz dieser Ressourcen verstanden?
+Beispiel: Die Berechnung darf nicht länger als 0,25 Sekunden dauern.</p>
+</div>
+<div class="paragraph">
+<p>Zwischen Eingabe des Clients und Ausführung des Servers darf es keine zu hohe Latenz geben.</p>
+</div>
+<div class="paragraph">
+<p>Typ PFLEGE:	Wartbarkeits- und Portierbarkeitsanforderung</p>
+</div>
+<div class="paragraph">
+<p>Welcher Grad an Änderbarkeit wird gefordert? Hier werden, soweit wie möglich, kommende Anpassungen und Erweiterungen vorhergesehen.
+Beispiel: Das Produkt soll später auch in englischer Sprache verfügbar sein.</p>
+</div>
+<div class="paragraph">
+<p>Der Anwendungsfall der Autos würde sich in der Zukunft nicht nur auf die Steuerung fokusieren, sondern könnte auch Bilder übertragen oder Musik abspielen.</p>
+</div>
+<div class="paragraph">
+<p>Typ SICHER:	Sicherheitsanforderung</p>
+</div>
+<div class="paragraph">
+<p>Zu den Sicherheitsanforderungen gehören die Aspekte Vertraulichkeit, Datenintegrität und Verfügbarkeit. Wie sehr müssen die Daten vor dem Zugriff durch Dritte geschützt werden? Ist es entscheidend, die Korrektheit der erfassten Daten und ihre Konsistenz zu gewährleisten? Dürfen Systemausfälle vorkommen?
+Beispiel: Das System muss gewährleisten, dass Daten nie verändert werden können.</p>
+</div>
+<div class="paragraph">
+<p>Die Autos müssen in einen abgesicherten Bereich agieren, sodass man keine "Verkehrsbedrohung" darstellt und unter anderem nicht die Verbindung verloren geht.</p>
+</div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="_ziele"><a class="anchor" href="#_ziele"></a>1.5. Ziele</h3>
-
+<h3 id="_zielsetzung"><a class="anchor" href="#_zielsetzung"></a>1.5. Zielsetzung</h3>
+<div class="paragraph">
+<p>Besucher sollen am Tag der offenen Tür mit den Roboterfahrzeugen den Roboterführerschein machen können.</p>
+</div>
 </div>
 <div class="sect2">
 <h3 id="_mengengerüst"><a class="anchor" href="#_mengengerüst"></a>1.6. Mengengerüst</h3>
-
-</div>
-<div class="sect2">
-<h3 id="_rahmenbedingungen"><a class="anchor" href="#_rahmenbedingungen"></a>1.7. Rahmenbedingungen</h3>
-<div class="paragraph">
-<p>zB Vorgaben vom Auftraggeber</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_entwurf_wie_mache_ich_es"><a class="anchor" href="#_entwurf_wie_mache_ich_es"></a>2. Entwurf "Wie mache ich es"</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_systemarchitektur"><a class="anchor" href="#_systemarchitektur"></a>2.1. Systemarchitektur</h3>
-
-</div>
-<div class="sect2">
-<h3 id=""><a class="anchor" href="#"></a>2.2. &#8230;&#8203;</h3>
-
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="_projekthandbuch_organisatorische_rahmenbedingungen"><a class="anchor" href="#_projekthandbuch_organisatorische_rahmenbedingungen"></a>3. Projekthandbuch "Organisatorische Rahmenbedingungen"</h2>
-<div class="sectionbody">
-<div class="sect2">
-<h3 id="_gantt_diagramm"><a class="anchor" href="#_gantt_diagramm"></a>3.1. GANTT-Diagramm</h3>
-<div class="paragraph">
-<p>mit User-Stories (definiert in YouTrack)</p>
-</div>
-<div class="imageblock">
+<div class="exampleblock">
 <div class="content">
-<img src="images/gantt-protoype.png" alt="gantt protoype" width="353" height="81">
-</div>
-</div>
 <div class="paragraph">
-<p><a href="demo.html">Demo</a></p>
+<p>== User-Stories</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Als User möchte ich das Roboterfahrzeug mit dem Joystick bedienen können,
+um ein besseres Gefühl für die Steuerung zu bekommen, als mit einer
+Computertastatur.</p>
+</li>
+<li>
+<p>Als User möchte ich das Roboterfahrzeug mit einer Tanzmatte steuern können,
+falls eines der Autos (am Tag der öffenen Tür) schon mit dem Joystick bedient wird.</p>
+</li>
+<li>
+<p>Als User möchte ich am PC sehen können, was die Kamera überträgt.
+So kann ich sehen, wohin das Fahrzeug fährt, auch wenn es z.B. durch
+einen Tunnel fährt.</p>
+</li>
+</ul>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -571,8 +727,8 @@ pre.rouge .hll * {
 </div>
 <div id="footer">
 <div id="footer-text">
-Version 1.0.1<br>
-Last updated 2020-03-22 12:58:52 UTC
+Version 1.0<br>
+Last updated 2020-03-22 13:21:10 UTC
 </div>
 </div>
 </body>

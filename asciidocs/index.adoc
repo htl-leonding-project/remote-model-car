@@ -34,7 +34,7 @@ Vor drei Jahren wurden sie von ehemaligen Drittklasslern aus dem Informatik Zwei
 
 ==== Aktivitäten
 Diagramm 1: Steuerung
-[plantuml, id=""activityOne", width="600px", height="200px"]
+[plantuml, id="activityOne", width="600px", height="200px"]
 --
 @startuml
 |FahrerIn|
@@ -58,7 +58,7 @@ stop
 --
 
 Diagramm 2: Kameraübertragung
-[plantuml, id=""activityTwo", width="600px", height="200px"]
+[plantuml, id="activityTwo", width="600px", height="200px"]
 --
 @startuml
 |FahrerIn|

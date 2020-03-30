@@ -34,7 +34,7 @@ Vor drei Jahren wurden sie von ehemaligen Drittklasslern aus dem Informatik Zwei
 
 ==== Aktivitäten
 Diagramm 1: Steuerung
-[plantuml, id="activityOne", width="600px", height="200px"]
+[plantuml,activityDiagram1,png]
 --
 @startuml
 |FahrerIn|

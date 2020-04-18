@@ -10,8 +10,13 @@
 ### 1. Verbindungsaufbau: 
 Den PC mit dem konfigurierten WLAN verbinden.
 
-### 2. Software starten
+### 2. Software starten:
+- Client Software starten
+- IP Adresse und Port konfiguren <br>
 ![GUI](/Documents/GUI.jpeg?raw=true)
+
+### 3. Auto steuern:
+- Bei erfolgreicher Verbindung einfach loslegen
 
 ## Installationsanleitung:
 

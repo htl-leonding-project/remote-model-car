@@ -1,28 +1,23 @@
-# Cargo Projektdokumentation
+# Cargo Dokumentation
 
-### HARDWARE
-#### Bauteile (beschrieben)
+## Hardware
+### Bauteile
  - **Raspberry PI:**
     - Minicomputer
-    - Hier befindet sich die Server Software
- - **Motordriver:**
-    - Steuerung der Motoren
+    - Hier befindet sich die Server-Software 
+ - **Motor Driver:**
     - Führt die Befehle vom Raspberry PI aus
+    - Steuert die DC Motoren
  - **2 DC Motoren:**
-    - Treiben das Fahrzeug an
+    - Treibt die Räder an
  - **Webcam:**
     - Zeichnet die Ego-Perspektive des Fahrzeugs auf
- - **WLAN Dongle:**
-    - Ermöglicht die Kommunikation zwischen Server und Client
-    - Realisiert den WLAN-Hotspot
  - **Power Bank:**
     - Versorgt den Raspberry PI mit Strom
-
-#### Schalt- und Bauplan
+    
+### Schalt- und Bauplan
 ![Schaltplan](/Documents/Schaltplan.png?raw=true) <br>
-![Fritzing](/Documents/Fritzing.png?raw=true)
-
-
+![Bauplan](/Documents/Fritzing.png?raw=true)
 ### Installation Guide
 **WARNING**: This guide assumes you have a Raspberry Pi (Model B or newer/better) with Raspbian OS installed and 2 free USB ports. The Raspberry Pi must be connected to the internet and you’ll need to SSH onto it. You should also know how to gain superuser rights, because they are a necessity throughout the guide.
 
@@ -32,7 +27,7 @@
     ![Schaltplan](/Documents/Schaltplan.png?raw=true) <br>
     
     ## Fritzing:
-    ![Fritzing](/Documents/Fritzing.png?raw=true)
+    ![Bauplan](/Documents/Fritzing.png?raw=true)
     
 2. **Packages, packages, packages**<br>
     You now need to install a few packages, which are necessary for **HOTRoad** to even function. You’ll need:   

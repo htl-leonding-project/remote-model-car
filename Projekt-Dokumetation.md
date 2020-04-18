@@ -39,5 +39,6 @@
 
 
 ### Server Klassendiagramm
-![KlassendiagrammServer](/Documents/ServerClassDiagramm.png)
+![KlassendiagrammServer](/Documents/ServerClassDiagramm.png?raw=true)
 
+### Client

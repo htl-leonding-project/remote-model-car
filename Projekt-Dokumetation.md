@@ -20,3 +20,24 @@
 ![Bauplan](/Documents/Fritzing.png?raw=true)
 
 ## Software
+### Server 
+- **Main** 
+    - Startet den VehicleServerThread  
+- **VehicleServer**
+    - Errichtet einen Socket  
+    - Erstellt eine Instance von ***ImpulseProcessor***
+    - Führt die Methode log() von der Klasse ***FileLogger*** aus
+- **ImpulseProcessor**
+    - Interpretiert die Impulsbefehle 
+    - Steuert die Hardware-Komponente 
+    - Implementiert das Interface ***ImpulseProcessorListener***
+    - Führt ebenfalls die Methode FileLooger.getInstance().log() aus
+- **Impulse**
+    - Enum der Impulse (FORWARD, RIGHT, QUIT, etc.) 
+- **FileLogger** 
+    - Protokolliert die ausgeführten Prozesse [mittels log()]
+
+
+### Server Klassendiagramm
+![KlassendiagrammServer](/Documents/ServerClassDiagramm.png)
+

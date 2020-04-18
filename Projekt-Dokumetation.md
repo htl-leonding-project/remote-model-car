@@ -42,3 +42,20 @@
 ![KlassendiagrammServer](/Documents/ServerClassDiagramm.png?raw=true)
 
 ### Client
+- **Main**
+    - Startet die ***GUI***
+- **GUI**
+    - Name: view.fxml
+    - Ist verbunden mit dem ***Controller***
+- **Controller** 
+    - Interpretiert die Befehle und Inputs des Benutzers
+    - Erstellt eine Instanz von ***VehicleClient*** 
+- **VehicleClient**
+    - Stellt die Verbindung zum Server her
+    - Kontrolliert die Verbindung
+    - Sendet die Inputs an den Server
+- **Impulse**
+    - Enum der Impulse (FORWARD, RIGHT, QUIT, etc.) 
+    
+### Client Klassendiagramm
+![KlassendiagrammServer](/Documents/ClientClassDiagramm.png?raw=true)

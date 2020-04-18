@@ -108,26 +108,26 @@ public class Controller implements Initializable {
 
 
         if (!connecting) {
-            connecting = true;
-            String ipAddress = tf_Ip.getText();
-            String port = tf_Port.getText();
+                connecting = true;
+                String ipAddress = tf_Ip.getText();
+                String port = tf_Port.getText();
 
-            log("Connecting to " + ipAddress + ":" + port + "...");
+                log("Connecting to " + ipAddress + ":" + port + "...");
 
-            Thread thread = new Thread(() -> {
-                try {
-                    vehicleClient.connect(ipAddress, Integer.parseInt(port));
-                    log("Connected!");
-                    log("==========");
-                    setConnected(true);
-                } catch (Exception ex) {
+                Thread thread = new Thread(() -> {
+                    try {
+                        vehicleClient.connect(ipAddress, Integer.parseInt(port));
+                        log("Connected!");
+                        log("==========");
+                        setConnected(true);
+                    } catch (Exception ex) {
 
-                    setConnected(false);
-                    log(ex.getClass() + ": " + ex.getMessage());
-                }
-                connecting = false;
-            });
-            thread.start();
+                        setConnected(false);
+                        log(ex.getClass() + ": " + ex.getMessage());
+                    }
+                    connecting = false;
+                });
+                thread.start();
 
         }
 

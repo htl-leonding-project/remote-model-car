@@ -16,7 +16,7 @@
     - Versorgt den Raspberry PI mit Strom
     
 ### Schalt- und Bauplan
-![Schaltplan](/Documents/Schaltplan.png?raw=true) <br>
+![Schaltplan](/Documents/Schaltplan.png?raw=true)
 ![Bauplan](/Documents/Fritzing.png?raw=true)
 ### Installation Guide
 **WARNING**: This guide assumes you have a Raspberry Pi (Model B or newer/better) with Raspbian OS installed and 2 free USB ports. The Raspberry Pi must be connected to the internet and you’ll need to SSH onto it. You should also know how to gain superuser rights, because they are a necessity throughout the guide.

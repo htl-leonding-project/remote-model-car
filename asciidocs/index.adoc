@@ -1,17 +1,23 @@
-= Car Go
-== Pflichtenheft
+= Pflichtenheft - Car Go
+firstname lastname
+1.0.0, yyyy-mm-dd
+:sourcedir: ../src/main/java
+ifndef::imagesdir[:imagesdir: images]
+ifndef::backend[:backend: html5]
+:icons: font
+:toc: left
 
-=== Ausgangssituation
+== Ausgangssituation
 
 Die HTL Leonding ist eine Höhere Technische Lehranstalt in Oberösterreich. In Zuge
 der Ausbildung müssen die Schüler Projekte umsetzen.
 
-=== Istzustand
+== Istzustand
 
 Es sind mehrere Roboterfahrzeuge vorhanden, welche seit längerer Zeit außer Betrieb sind.
 Vor drei Jahren wurden sie von ehemaligen Drittklasslern aus dem Informatik Zweig programmiert.
 
-==== Aktivitäten
+=== Aktivitäten
 Diagramm 1: Steuerung
 [plantuml,activityDiagram1,png]
 --
@@ -58,15 +64,15 @@ stop
 @enduml
 --
 
-=== Problemstellung
+== Problemstellung
 
 Die Autos sind außer Betrieb und lassen sich nicht steuern.
 
-=== Aufgabenstellung
+== Aufgabenstellung
 
-==== Funktionale Anforderungen
+=== Funktionale Anforderungen
 
-===== Anwendungsfalldiagramm (Use-Case-Diagram)
+==== Anwendungsfalldiagramm (Use-Case-Diagram)
 
 [plantuml, id="useCase", width="600px", height="200px"]
 --
@@ -159,14 +165,15 @@ Beispiel: Das System muss gewährleisten, dass Daten nie verändert werden könn
 Die Autos müssen in einen abgesicherten Bereich agieren, sodass man keine "Verkehrsbedrohung" darstellt und unter anderem nicht die Verbindung verloren geht.
 
 
-=== Zielsetzung
+== Zielsetzung
 
 Besucher sollen am Tag der offenen Tür mit den Roboterfahrzeugen den Roboterführerschein machen können.
 
 
-=== Gantt-Chart
+== Gantt-Chart
 
-[plantuml, id="ganttChart1", width="800px", height="200px"]
+//[plantuml, id="ganttChart1", width="800px", height="200px"]
+[plantuml,gantt1,png,id="ganttChart1", width="800px", height="200px"]
 --
 @startuml
 project starts the 2018/10/14

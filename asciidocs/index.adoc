@@ -43,7 +43,7 @@ stop
 --
 
 Diagramm 2: Kameraübertragung
-[plantuml, id="activityTwo", width="600px", height="200px"]
+[plantuml,activityDiagram1,png, id="activityTwo", width="600px", height="200px"]
 --
 @startuml
 |FahrerIn|
@@ -74,7 +74,7 @@ Die Autos sind außer Betrieb und lassen sich nicht steuern.
 
 ==== Anwendungsfalldiagramm (Use-Case-Diagram)
 
-[plantuml, id="useCase", width="600px", height="200px"]
+[plantuml,usecase1,png, id="useCase", width="600px", height="200px"]
 --
 @startuml
 left to right direction
@@ -172,7 +172,6 @@ Besucher sollen am Tag der offenen Tür mit den Roboterfahrzeugen den Roboterfü
 
 == Gantt-Chart
 
-//[plantuml, id="ganttChart1", width="800px", height="200px"]
 [plantuml,gantt1,png,id="ganttChart1", width="800px", height="200px"]
 --
 @startuml
@@ -189,7 +188,7 @@ project starts the 2018/10/14
 @enduml
 --
 
-[plantuml, id="ganttChart2", width="800px", height="200px"]
+[plantuml,gantt2,png, id="ganttChart2", width="800px", height="200px"]
 --
 @startuml
 project starts the 2020/01/06
@@ -201,7 +200,7 @@ project starts the 2020/01/06
 @enduml
 --
 
-[plantuml, id="ganttChart3", width="800px", height="200px"]
+[plantuml,gantt3,png, id="ganttChart3", width="800px", height="200px"]
 --
 @startuml
 project starts the 2020/03/09

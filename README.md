@@ -25,7 +25,6 @@ Den PC mit dem konfigurierten WLAN verbinden.
  - **Server**: Hier befindet sich der Source Code für den Server (denn man auf dem Raspberry PI ausführen muss), welcher die Signale der Clients interpretiert.
  - **Requirements**: Hier befindet sich einerseits die mpjpg_streamer Library welche für den Raspberry zum Streamen der Kamerabilder benötigt wird, und die JoyToKey Anwendung welche man benötigt um die Controller Inputs auf die richtigen Tastatur Inputs umwandelt.
  - **Documents**: Hier befinden sich alle genaueren Information für das Projekt, wie Schaltplan und Stückliste.
- - **FührerscheinBuilder (für den Tag der offenen Tür)**: Hier befindet sich die Anwendung, mit der man die Führerscheine erstellen und als PDF exportieren kann um diese anschließend auszudrucken.
    
 ### Am Server (Raspberry PI): 
 1) **Benötigte Packages**<br>

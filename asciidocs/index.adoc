@@ -1,25 +1,4 @@
-= Car Go - Roboterführerschein
-// Metadata
-Philipp Edlinger <Edlinger.philipp2002@gmail.com>
-1.0, 07.02.2020:
-
-// Settings
-:source-highlighter: coderay
-:icons: font
-:sectnums:    // Nummerierung der Überschriften / section numbering
-// Refs:
-:imagesdir: images
-:sourcedir-code: src/main/java/at/htl/jdbcprimer
-:sourcedir-test: src/test/java/at/htl/jdbcprimer
-:toc:
-
-Version: {revnumber} +
-Version Date: {revdate} +
-Author: {Author} {email}
-
-++++
-<link rel="stylesheet"  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-++++
+= Car Go
 == Pflichtenheft
 
 === Ausgangssituation
@@ -95,17 +74,18 @@ Die Autos sind außer Betrieb und lassen sich nicht steuern.
 left to right direction
 skinparam packageStyle rectangle
 actor FahrerIn
+actor Fahrzeug
+actor Bildschirm
 rectangle Autokommunikation {
-    FahrerIn -- (Autolenkung)
-    (Autolenkung) -- (Desktop)
-    (Autolenkung) -- (Mobil)
-    (Desktop) -- (Tanzmatte)
-    (Desktop) -- (Joystick)
+    FahrerIn -- (Fahrzeug lenken)
+    (Fahrzeug lenken) -- Fahrzeug
+    (Kameraübetragung) -- Fahrzeug
+    Bildschirm -- (Kameraübetragung)
 }
 @enduml
 --
 
-===== Use-Case 1
+===== Use-Case
 
 ===== Charakterisierende Informationen Use-Case
 
@@ -138,7 +118,7 @@ a|
 | Imput des Client (Steuerung nutzen)
 |===
 
-===== GUI für den Aufruf des Use-Case 1
+===== GUI für den Aufruf des Use-Case
 
 
 ==== Nicht-funktionale Anforderungen
@@ -183,6 +163,51 @@ Die Autos müssen in einen abgesicherten Bereich agieren, sodass man keine "Verk
 
 Besucher sollen am Tag der offenen Tür mit den Roboterfahrzeugen den Roboterführerschein machen können.
 
+
+=== Gantt-Chart
+
+[plantuml, id="ganttChart1", width="800px", height="200px"]
+--
+@startuml
+project starts the 2018/10/14
+2019/12/21 to 2020/01/05 is closed
+[Setup Analyze] lasts 10 days
+[Hotspot Configuration] lasts 28 days
+[Server Connection] lasts 10 days
+[Error Search] lasts 4 days
+[Hotspot Configuration] starts at [Setup Analyze]'s end
+[Server Connection] starts at [Hotspot Configuration]'s end
+[Error Search] starts at [Server Connection]'s end
+
+@enduml
+--
+
+[plantuml, id="ganttChart2", width="800px", height="200px"]
+--
+@startuml
+project starts the 2020/01/06
+2020/01/25 to 2020/02/11 is closed
+[Open House Day Preparation] lasts 19 days
+[Specification] lasts 1 day
+[Specification] starts the 2020/02/12
+
+@enduml
+--
+
+[plantuml, id="ganttChart3", width="800px", height="200px"]
+--
+@startuml
+project starts the 2020/03/09
+2020/03/31 to 2020/04/17 is closed
+[Github Repo Management] lasts 21 days
+[Github Pages] lasts 3 days
+[Specification] lasts 3 days
+[Github Pages] starts the 2020/03/27
+[Specification] starts the 2020/03/27
+[Project Documentation] starts the 2020/04/18
+
+@enduml
+--
 
 == User-Stories
 

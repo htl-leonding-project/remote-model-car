@@ -102,3 +102,8 @@ Den PC mit dem konfigurierten WLAN verbinden.
     ```
 6) **Neustart**
     Sie sind fertig! Jetzt starten Sie noch den Raspberry PI neu und dann können Sie loslegen!
+
+## Archiv
+
+Stand Tag der offenen Tür 2020: <br>
+https://github.com/1920-3ahitm-itp/HOTRoad.git

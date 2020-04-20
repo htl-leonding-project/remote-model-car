@@ -85,8 +85,8 @@ actor Bildschirm
 rectangle Autokommunikation {
     FahrerIn -- (Fahrzeug lenken)
     (Fahrzeug lenken) -- Fahrzeug
-    (Kameraübetragung) -- Fahrzeug
-    Bildschirm -- (Kameraübetragung)
+    (Kameraübertragung) -- Fahrzeug
+    Bildschirm -- (Kameraübertragung)
 }
 @enduml
 --

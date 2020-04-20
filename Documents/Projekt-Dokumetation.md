@@ -16,8 +16,8 @@
     - Versorgt den Raspberry PI mit Strom
     
 ### Schalt- und Bauplan
-![Schaltplan](/Documents/Schaltplan.png?raw=true)
-![Bauplan](/Documents/Fritzing.png?raw=true)
+![Schaltplan](Schaltplan.png?raw=true)
+![Bauplan](Fritzing.png?raw=true)
 
 ## Software
 ### Server 
@@ -39,7 +39,7 @@
 
 
 ### Server Klassendiagramm
-![KlassendiagrammServer](/Documents/ServerClassDiagramm.png?raw=true)
+![KlassendiagrammServer](ServerClassDiagramm.png?raw=true)
 
 ### Client
 - **Main**
@@ -58,4 +58,4 @@
     - Enum der Impulse (FORWARD, RIGHT, QUIT, etc.) 
     
 ### Client Klassendiagramm
-![KlassendiagrammServer](/Documents/ClientClassDiagramm.png?raw=true)
+![KlassendiagrammServer](ClientClassDiagramm.png?raw=true)

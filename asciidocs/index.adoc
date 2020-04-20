@@ -1,6 +1,6 @@
 = Pflichtenheft - Car Go
-firstname lastname
-1.0.0, yyyy-mm-dd
+Oirer Edlinger
+1.0.0, 2020-04-19
 :sourcedir: ../src/main/java
 ifndef::imagesdir[:imagesdir: images]
 ifndef::backend[:backend: html5]

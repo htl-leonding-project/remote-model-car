@@ -107,3 +107,6 @@ Den PC mit dem konfigurierten WLAN verbinden.
 
 Stand Tag der offenen Tür 2020: <br>
 https://github.com/1920-3ahitm-itp/HOTRoad.git
+
+Dokumentation des Projekts: <br>
+https://github.com/htl-leonding-project/remote-model-car/blob/master/Documents/Projekt-Dokumetation.md

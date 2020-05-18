@@ -23,7 +23,7 @@ Philipp Edlinger
 - Verbindungsaufbau zum Server
 - Client-Server- Kommunikation hergestellt
 - Steuerung mittels JoySticks umgesetzt
-- Bildschrimübertragung mittels Webcam ermöglicht
+- Bildschirmübertragung mittels Webcam ermöglicht
 - Github Pages und Projects erstellt
 
 

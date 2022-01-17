@@ -9,6 +9,8 @@ import javafx.stage.Stage;
 
 /**
  * Created by kepplinger on 29.12.16.
+ *
+ * Use MainWrapper instead of this class for running the program!
  */
 public class Main extends Application {
 
